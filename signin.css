@@ -2,7 +2,7 @@ body{
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url('cofeecup.jpg');
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-position:bottom-left;
+	/*background-position:bottom-left;*/
 }
 	
 h1{
@@ -20,23 +20,26 @@ input, textarea{
 }
 	
 input[type=text]{
-	width: 100%;
+	/*width: 100%;*/
+	display:inline-block;
 	padding: 12px 12px;
 	margin: 10px 0;
 	box-sizing: border-box;
 }
 
 input[type=email]{
-	width: 100%;
+	/*width: 100%;*/
+	display:inline-block;
 	padding: 12px 12px;
-	margin: 10px 0;
+	margin: 10px 23px;
 	box-sizing: border-box;
 }
 
 input[type=password]{
-	width: 100%;
+	/*width: 100%;*/
+	display: inline-block;
 	padding: 12px 12px;
-	margin: 10px 0;
+	margin: 10px 10px;
 	box-sizing: border-box;
 }
 
@@ -44,7 +47,8 @@ input[type=checkbox]{
 	color:white;
 }
 
-table{
+form{
+	display:inline-block;
 	margin-left: 22%;
 	margin-bottom: 20%;
 	margin-top:30px;
@@ -52,8 +56,9 @@ table{
 }
 
 label{
-	display:inline-table;
+	display:inline-block;
 	color:white;
+	padding: 4px 6px;
 	font-size:20px;
 	font-family:arial;
 }
