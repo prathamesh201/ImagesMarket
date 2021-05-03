@@ -21,19 +21,21 @@ input, textarea{
 }
 	
 input[type=text]{
-	position: relative;
-	display:inline-block;
-	padding: 12px 12px;
-	margin: 10px 0;
-	box-sizing: border-box;
+	margin: 3.3%;
+	padding: 10px 12px;
 }
 
 input[type=email]{
-	position:relative;
-	display:inline-block;
-	padding: 12px;
-	margin: 10px 23px;
+	margin: 4.3%;
+	margin-left:4.39%;
+	padding: 10px;
+}
+
+input[type=password]{
+	padding: 12px 12px;
+	margin: 10px 10px;
 	box-sizing: border-box;
+	margin: 4.4%;
 }
 
 input[type=password]{
