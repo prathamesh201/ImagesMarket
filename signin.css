@@ -2,7 +2,6 @@ body{
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url('cofeecup.jpg');
 	background-repeat:no-repeat;
 	background-size: cover;
-	/*background-position:bottom-left;*/
 }
 	
 h1{
@@ -33,18 +32,10 @@ input[type=email]{
 
 input[type=password]{
 	padding: 12px 12px;
-	margin: 10px 10px;
 	box-sizing: border-box;
 	margin: 4.4%;
 }
 
-input[type=password]{
-	position: relative;
-	display: inline-block;
-	padding: 12px 12px;
-	margin: 10px 10px;
-	box-sizing: border-box;
-}
 
 input[type=checkbox]{
 	color:white;
