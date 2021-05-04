@@ -26,14 +26,14 @@ input[type=text]{
 
 input[type=email]{
 	margin: 4.3%;
-	margin-left:4.39%;
-	padding: 12px;
+	margin-left:2.39%;
+	padding: 10px 12px;
 }
 
 input[type=password]{
 	padding: 12px 12px;
 	box-sizing: border-box;
-	margin: 4.4%;
+	margin: 2.4%;
 }
 
 
