@@ -2,8 +2,8 @@
 
 	// Database (DB) information here
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$username = "prathamesh201";
+	$password = "Prathamesh@7447";
 	$dbname = "login";
 	
 	//Create and check db connection
